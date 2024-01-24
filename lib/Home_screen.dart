@@ -37,11 +37,9 @@ class _HomescreenState extends State<Homescreen> {
         elevation: 5,
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 30),
+        padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 50),
         child: SingleChildScrollView(
           child: Container(
-            height: 500,
-            width: 500,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               mainAxisSize: MainAxisSize.max,

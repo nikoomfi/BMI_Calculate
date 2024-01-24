@@ -91,21 +91,24 @@ class ResultBox extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          MaterialButton(
-            padding: EdgeInsets.symmetric(
-              horizontal: 60,
-              vertical: 20,
-            ),
-            onPressed: onSavePressed,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(5),
-            ),
-            color: kBackgroundColor,
-            child: Text(
-              'Save Result',
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.white,
+          Align(
+            alignment: Alignment.center,
+            child: MaterialButton(
+              padding: EdgeInsets.symmetric(
+                horizontal: 50,
+                vertical: 20,
+              ),
+              onPressed: onSavePressed,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(5),
+              ),
+              color: kBackgroundColor,
+              child: Text(
+                'Save Result',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                ),
               ),
             ),
           ),
